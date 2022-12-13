@@ -1,0 +1,9 @@
+aws_region           = "eu-west-3"
+project              = "project" # name of the project
+environment          = "default" # dev, qa, prod
+team-name            = "devops-team"
+tenant               = "host"
+availability_zones   = ["eu-west-3a", "eu-west-3b", "eu-west-3c"]
+vpc_cidr             = "10.0.0.0/16"
+public_subnets_cidr  = ["10.0.10.0/24", "10.0.20.0/24", "10.0.30.0/24"] //List of Public subnet cidr range
+private_subnets_cidr = ["10.0.11.0/24", "10.0.21.0/24", "10.0.31.0/24"] //List of private subnet cidr range
